@@ -1,16 +1,16 @@
 {
-    "version": "2.0.0",
-    "tasks": [
+  "version": "2.0.0",
+  "tasks": [
       {
-        "label": "Build 3DS App",
-        "type": "shell",
-        "command": "make",
-        "problemMatcher": ["$gcc"],
-        "group": {
-          "kind": "build",
-          "isDefault": true
-        }
+          "label": "Build 3DS Hello World C++",
+          "type": "shell",
+          "command": "make",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": [],
+          "detail": "Build the Hello World C++ 3DS project"
       }
-    ]
-  }
-  
+  ]
+}
